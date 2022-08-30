@@ -9,11 +9,15 @@ To make the test "fun", other R packages from the CRAN are employed.  They will 
 
 ### Optional Arguments
 
-id = A unique identifier (string or numeric) for the data file and plot.
-tz = Timezone specification.  Input a Olson timezone ID as a string.  Default is "UTC".
-show_table = Displays a multiplication table in the console each time you get a question wrong.  Takes a logical value.  Default is FALSE.
-save_result = Logical value dictating whether you want to save an attempt's data. Default is TRUE.
-seed = Seed input to determine random number generation.  Specifying a integer value will ensure that the same question ordering is used every attempt.
+- ```id``` = A unique identifier (string or numeric) for the data file and plot.
+
+- ```tz``` = Timezone specification.  Input a Olson timezone ID as a string.  Default is "UTC".
+
+- ```show_table``` = Displays a multiplication table in the console each time you get a question wrong.  Takes a logical value.  Default is FALSE.
+
+- ```save_result``` = Logical value dictating whether you want to save an attempt's data. Default is TRUE.
+
+- ```seed``` = Seed input to determine random number generation.  Specifying a integer value will ensure that the same question ordering is used every attempt.
 
 CRAN Packages used:
 "beepr","cowsay","praise", "plyr", "ggplot2", "lubridate"
