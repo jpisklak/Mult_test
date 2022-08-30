@@ -1,5 +1,5 @@
 # A Fun Multiplication Table Test using R!
-The R script *MultTest.R* contains a function ```multTest()``` that will run a nifty test of your ability to complete a multiplication table of any size.  The function takes certain arguments (described below) but will work fine without specifying any.  Simply load the script: ```source("MultTest.R")``` and run the function ```multTest()```.
+The R script *MultTest.R* contains a function that will run a nifty test of your ability to complete a multiplication table of any size.  The function takes certain arguments (described below) but will work fine without specifying any.  Simply load the script: ```source("MultTest.R")``` and run the function ```multTest()```.
 
 The function will ask you to specify the size of the multiplication table you want to test.  For example, if you input "5", it will test a 5 x 5 table.  A comma seperated values data file with your results will be saved into a data folder that is created when you complete the test.  
 
